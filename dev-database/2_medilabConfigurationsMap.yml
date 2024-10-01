@@ -9,7 +9,7 @@ metadata:
 data:
   #MYSQL_DATABASE_NAME: "medilab-preclinic-monolith"
   MYSQL_DATABASE_NAME: medilab-monolith-app-db
-  MYSQL_DB_PORT: "3306"
-  MEDILAB_DB_TYPE: "mysql"
+  MYSQL_DB_PORT: ${DB_PORT:"3306"}
+  MEDILAB_DB_TYPE: ${DB_TYPE:"mysql"}
 
    
